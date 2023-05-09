@@ -105,11 +105,11 @@ export default function BookingForm() {
         tower: selects.selectTower.answer,
         floor: selects.selectFloor.answer,
         room: selects.selectRoom.answer,
-        date: date.$d.toLocaleDateString(),
+        date: date.$d.toLocaleDateString("ru-Ru"),
         timeRange:
-          time[0].$d.toLocaleTimeString([], options) +
+          time[0].$d.toLocaleTimeString("ru-Ru", options) +
           "-" +
-          time[1].$d.toLocaleTimeString([], options),
+          time[1].$d.toLocaleTimeString("ru-Ru", options),
         comment: comment,
       })
     );
