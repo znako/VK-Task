@@ -1,0 +1,36 @@
+.BookingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BookingForm > div {
+  background-color: rgb(34, 34, 34);
+  max-width: 600px;
+  width: 100%;
+  padding: 40px 50px;
+  border: 1px solid rgb(66, 66, 66);
+  border-radius: 15px;
+}
+
+.BookingForm h1 {
+  margin-bottom: 30px;
+}
+
+.BookingForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.BookingForm form > div {
+  margin-bottom: 25px;
+}
+
+.BookingForm form > div:last-child {
+  margin-bottom: 0;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+}
